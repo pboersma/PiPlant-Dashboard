@@ -1,0 +1,14 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" opened="true">
+    <mat-nav-list>
+      <mat-list-item >
+        <a matLine routerLink="/dashboard" href="#" style="margin: 0 30px;">Dashboard</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <ng-content></ng-content>
+  </div>
+
+</mat-drawer-container>

@@ -1,0 +1,30 @@
+.container {
+  padding: 2em;
+  display: flex;
+  .basic {
+    margin: 1em;
+    background-color: #d7743b;
+    border-radius: 5px;
+    // height: 10em;
+    display: flex;
+    width: 30em;
+    padding: 1em;
+    .info {
+      color: white;
+      width: 90%;
+      h3 {
+        font-size: 2em;
+        margin-bottom: 5px;
+        font-weight: 400;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    .icon {
+      color: rgba(0, 0, 0, 0.1
+      );
+      font-size: 3em;
+    }
+  }
+}
