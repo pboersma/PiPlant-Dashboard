@@ -1,7 +1,8 @@
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <button mat-icon-button style="margin-right: 1em;" (click)="toggleSideNavigation()">
+<nav>
+  <mat-toolbar class="navigation" color="primary">
+    <button mat-icon-button class="navigation__button" (click)="toggleSideNavigation()" aria-label="Menu button">
       <fa-icon [icon]="faBars"></fa-icon>
     </button>
-    <h1>PiPlant Dashboard</h1>
-  </mat-toolbar-row>
+    <!-- <span class="navigation__logo">PiPlant</span> -->
+  </mat-toolbar>
+</nav>
